@@ -1,5 +1,6 @@
 body {
     background: rgb(33, 137, 172);
+	background-color: #ededed;
   }
   
   .skyblue {
@@ -89,3 +90,48 @@ body {
           width: 100%;
       }
   }
+
+.row-wrap {
+
+
+	display: flex;
+	flex-wrap: row wrap;
+	justify-content: space-between;
+}
+
+.row-wrap a {
+
+	margin-left : 20px;
+	margin-bottom: 10px;
+
+}
+
+.container, .row-wrap {
+
+	background-color: #ffffff;
+
+}
+.navbar-brand {
+background-color: #4aaaa5;
+height: 60px;
+padding-top: 20px;
+padding-bottom: 5px;
+margin-left: 70px;
+font-family: Georgia, Times, "Times New Roman", serif;
+font-size: 24px;
+font-weight: bold;
+color: #fff;
+background: #4aaaa5;
+}
+
+.navbar-default {
+
+background-color: #ffffff;
+
+}
+
+.navbar-default .navbar-brand {
+
+color: #fff;
+
+}
